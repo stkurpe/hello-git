@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "Кирилл Воронин"
+date: "2025-04-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+set.seed(111)
+xs <- sample(1:250, 25)
+xs
+```
+
+```{r}
+median(xs)
+```
+
